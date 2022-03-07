@@ -25,8 +25,6 @@ int main(){
         for(int j = a ; j <= b ; j ++ ){
 
             string arr = to_string(j);
-            if(arr.size() == 1) continue;
-
             if(sodoiguong(arr) == true){
                 count ++;
             }
